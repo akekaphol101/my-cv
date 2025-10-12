@@ -1,11 +1,13 @@
 // seed portfolio data (JS)
+import Logo from "../assets/img/profile/Logo.png";
+
 export const seedData = {
   profile: {
-    name: "Alex Jordan",
-    title: "Full-Stack Developer & UI Designer",
-    bio: "Passionate about crafting beautiful, performant web experiences that solve real problems. I specialize in React, TypeScript, and modern web technologies.",
-    avatarUrl: "/placeholder.svg",
-    location: "Bangkok, Thailand",
+    name: "Akekaphol Ramkaew",
+    title: "Full-Stack Developer & Automation IOT Engineer",
+    bio: "Passionate about crafting Automation system, IOT and Web applications , Performant web experiences that solve real problems. I specialize in React, JavaScript,PLC ,IOT , and web applications.",
+    avatarUrl: Logo,
+    location: "Songkhla, Thailand",
     socials: [
       { type: "github", url: "https://github.com" },
       { type: "linkedin", url: "https://linkedin.com" },
@@ -13,14 +15,15 @@ export const seedData = {
       { type: "email", url: "mailto:alex@example.com" }
     ],
     cvUrl: "/cv.pdf",
-    skills: ["React", "TypeScript", "Node.js", "Tailwind CSS", "UI/UX Design", "Next.js", "PostgreSQL"]
+    skills: ["React", "JavaScript", "Node.js", "Tailwind CSS", "MongoDB", "PLC Siements", "Siements IoT","PLC Mitsubishi","HMI Samkoon","Arduino Boards"]
   },
-  categories: ["Web", "Mobile", "UI/UX", "Open Source"],
+  categories: ["Webapp", "Automation", "IOT"],
+  tags: ["React", "JavaScript", "Node.js", "Tailwind CSS", "MongoDB", "UI/UX", "Automation", "IOT"],
   projects: [
     {
       id: "p-001",
       slug: "ecommerce-dashboard",
-      title: "E-Commerce Analytics Dashboard",
+      title: "E-Commerce Dashboard",
       year: 2024,
       summary: "Real-time analytics dashboard for tracking KPIs, sales metrics, and customer behavior across multiple channels.",
       cover: "/placeholder.svg",
