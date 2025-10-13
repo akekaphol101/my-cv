@@ -207,24 +207,24 @@ export default function ProjectDetail() {
           <div className="lg:col-span-2 space-y-12">
             {project.problemMd && (
               <div className="p-8 rounded-xl bg-[#141620] border border-[#1e293b]">
-                <h3 className="text-xl font-semibold mb-3">Problem</h3>
-                <p className="text-[#cbd5e1] whitespace-pre-line">
+                <h3 className="text-2xl font-semibold mb-3">🎯 Problem</h3>
+                <p className="text-[#cbd5e1] whitespace-pre-line text-lg">
                   {project.problemMd}
                 </p>
               </div>
             )}
             {project.approachMd && (
               <div className="p-8 rounded-xl bg-[#141620] border border-[#1e293b]">
-                <h3 className="text-xl font-semibold mb-3">Approach</h3>
-                <p className="text-[#cbd5e1] whitespace-pre-line">
+                <h3 className="text-2xl font-semibold mb-3">🧠 Approach</h3>
+                <p className="text-[#cbd5e1] whitespace-pre-line text-lg">
                   {project.approachMd}
                 </p>
               </div>
             )}
             {project.outcomeMd && (
               <div className="p-8 rounded-xl bg-[#141620] border border-[#1e293b]">
-                <h3 className="text-xl font-semibold mb-3">Outcome</h3>
-                <p className="text-[#cbd5e1] whitespace-pre-line">
+                <h3 className="text-2xl font-semibold mb-3">🏆 Outcome</h3>
+                <p className="text-[#cbd5e1] whitespace-pre-line text-lg">
                   {project.outcomeMd}
                 </p>
               </div>

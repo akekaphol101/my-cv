@@ -1,6 +1,8 @@
 // seed portfolio data (JS)
 import Logo from "../assets/img/profile/Logo.png";
 import { BubbleTea1,BubbleTea2,BubbleTea3,BubbleTea4 } from "../assets/img/projects/bubble-tea";
+import { processCan1,processCan2,processCan3 } from "../assets/img/projects/processing-can";
+
 
 export const seedData = {
   profile: {
@@ -20,7 +22,7 @@ export const seedData = {
     skills: ["React", "JavaScript", "Node.js", "Tailwind CSS", "MongoDB","Automation","IOT","PLC","PLC Siements", "Siements IoT","PLC Mitsubishi","HMI Samkoon","Node-RED","Arduino Boards"]
   },
   categories: ["Webapp", "Automation", "IOT"],
-  tags: ["React", "JavaScript", "Node.js", "Tailwind CSS", "MongoDB", "UI/UX", "Automation", "IOT","Node-RED","Arduino Boards"],
+  tags: ["React", "JavaScript", "Node.js", "Tailwind CSS", "MongoDB", "UI/UX", "Automation", "IOT","PLC","Node-RED","Arduino Boards"],
   projects: [
     {
       id: "p-004",
@@ -39,11 +41,11 @@ export const seedData = {
       problemMd: "## The Problem\n\nOur client needed a unified view...",
       approachMd: "## Our Approach\n\nWe designed a custom dashboard...",
       outcomeMd: "## The Outcome\n\n✅ 80% reduction in time...",
-      links: { demo: "https://demo.example.com", repo: "https://github.com/example/dashboard" },
+      links: { demo: "https://demo.example.com", repo: "https://github.com/example/dashboard", caseStudy: "https://case-study.example.com"},
       featured: true
     },
     {
-      id: "p-002",
+      id: "p-008",
       slug: "fitness-mobile-app",
       title: "Fitness Tracking Mobile App",
       year: 2024,
@@ -63,23 +65,23 @@ export const seedData = {
       featured: true
     },
     {
-      id: "p-003",
-      slug: "design-system",
-      title: "Corporate Design System",
-      year: 2023,
-      summary: "Comprehensive design system...",
-      cover: "/placeholder.svg",
-      gallery: ["/placeholder.svg"],
-      categories: ["UI/UX", "Web"],
-      tags: ["Design System", "Storybook", "React"],
-      techStack: ["React", "TypeScript", "Storybook", "Tailwind CSS"],
-      role: "UI Engineer",
-      teamSize: 2,
-      status: "Shipped",
+      id: "p-002",
+      slug: "image-processing-can",
+      title: "Image Processing Can",
+      year: 2021,
+      summary: "สร้างเครื่องตรวจจับ defect ของกระป๋องอาหารทะเลด้วยการวิเคราะห์ภาพ",
+      cover: processCan1,
+      gallery: [processCan2, processCan3],
+      categories: ["Automation", "PLC"],
+      tags: ["Automation", "PLC"],
+      techStack: ["Automation", "PLC"],
+      role: "Creator & Project",
+      teamSize: 3,
+      status: "Finish",
       problemMd: "## The Problem\n\nInconsistent UI patterns...",
       approachMd: "## Our Approach\n\nCreated a unified design system...",
       outcomeMd: "## The Outcome\n\nAdopted across 15 teams...",
-      links: { demo: "https://storybook.example.com", repo: "https://github.com/example/design-system" },
+      links: { demo: "https://www.facebook.com/share/v/1GA3dSesTr/", caseStudy: "https://www.facebook.com/share/v/1GA3dSesTr/" },
       featured: true
     },
     {
@@ -97,8 +99,8 @@ export const seedData = {
       teamSize: 1,
       status: "Success",
       problemMd: "วัตถุประสงค์ของโครงงาน\n\n1.	เพื่อออกแบบและพัฒนาระบบตู้กดน้ำชาไข่มุกอัตโนมัติ\n2.	เพื่อออกแบบกระบวนการทำงานของระบบตู้กดน้ำชาไข่มุกอัตโนมัติ\n3.	เพื่อศึกษาออกแบบระบบเซนเซอร์ ระบบควบคุม และระบบต่อพ่วงต่างๆ ภายในของตู้กดน้ำชาไข่มุกอัตโนมัติ",
-      approachMd: "## Our Approach\n\nBuilt an extensible CLI...",
-      outcomeMd: "## The Outcome\n\n2,000+ GitHub stars...",
+      approachMd: "ขอบเขตของโครงงาน\n\n1.	ผู้ใช้สามารถเลือกชนิดของน้ำได้ผ่าน UI ( User interface )\n2.	ระบบสามารถรองรับการจ่ายเงินได้\n3.	ระบบสามารถผลิตน้ำชาไข่มุกได้ตามความต้องการของลูกค้า\n",
+      outcomeMd: "วัตถุประสงค์ของโครงงาน\n\n1.	เพื่อออกแบบและพัฒนาระบบตู้กดน้ำชาไข่มุกอัตโนมัติ\n2.	เพื่อออกแบบกระบวนการทำงานของระบบตู้กดน้ำชาไข่มุกอัตโนมัติ\n3.	เพื่อศึกษาออกแบบระบบเซนเซอร์ ระบบควบคุม และระบบต่อพ่วงต่างๆ ภายในของตู้กดน้ำชาไข่มุกอัตโนมัติ\n",
       featured: true
     }
   ],

@@ -11,6 +11,11 @@ const socialIcons = {
 export function Footer() {
   const scrollToTop = () => window.scrollTo({ top: 0, behavior: 'smooth' });
 
+  const resetData = () => {
+    localStorage.clear();
+    window.location.reload();
+  };
+
   return (
     <footer className="mt-20 border-t border-[#1e293b] bg-gradient-to-t from-[#0e0f14] to-[#141620] text-[#94a3b8]">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
@@ -32,6 +37,7 @@ export function Footer() {
               </a>
             ))}
           </div>
+          <button onClick={resetData} className="flex items-center gap-2 px-4 py-2 border border-red-500 rounded-lg text-red-500 hover:text-[#14b8a6] transition" >Reset Data</button>
 
           <button
             onClick={scrollToTop}
