@@ -17,13 +17,13 @@ export const seedData = {
       { type: "email", url: "mailto:akekaphol1o1@gmail.com" }
     ],
     cvUrl: "/cv.pdf",
-    skills: ["React", "JavaScript", "Node.js", "Tailwind CSS", "MongoDB", "PLC Siements", "Siements IoT","PLC Mitsubishi","HMI Samkoon","Node-RED","Arduino Boards"]
+    skills: ["React", "JavaScript", "Node.js", "Tailwind CSS", "MongoDB","Automation","IOT","PLC","PLC Siements", "Siements IoT","PLC Mitsubishi","HMI Samkoon","Node-RED","Arduino Boards"]
   },
   categories: ["Webapp", "Automation", "IOT"],
   tags: ["React", "JavaScript", "Node.js", "Tailwind CSS", "MongoDB", "UI/UX", "Automation", "IOT","Node-RED","Arduino Boards"],
   projects: [
     {
-      id: "p-001",
+      id: "p-004",
       slug: "ecommerce-dashboard",
       title: "E-Commerce Dashboard",
       year: 2024,
@@ -92,15 +92,14 @@ export const seedData = {
       gallery: [BubbleTea2, BubbleTea3, BubbleTea4],
       categories: ["Automation"],
       tags: ["Automation", "Node-RED"],
-      techStack: ["Node-RED", "JavaScript"],
+      techStack: ["Automation", "Node-RED", "JavaScript"],
       role: "Creator & Project",
       teamSize: 1,
       status: "Success",
-      problemMd: "## The Problem\n\nRepetitive setup tasks...",
+      problemMd: "วัตถุประสงค์ของโครงงาน\n\n1.	เพื่อออกแบบและพัฒนาระบบตู้กดน้ำชาไข่มุกอัตโนมัติ\n2.	เพื่อออกแบบกระบวนการทำงานของระบบตู้กดน้ำชาไข่มุกอัตโนมัติ\n3.	เพื่อศึกษาออกแบบระบบเซนเซอร์ ระบบควบคุม และระบบต่อพ่วงต่างๆ ภายในของตู้กดน้ำชาไข่มุกอัตโนมัติ",
       approachMd: "## Our Approach\n\nBuilt an extensible CLI...",
       outcomeMd: "## The Outcome\n\n2,000+ GitHub stars...",
-      links: { repo: "https://github.com/example/cli-tool" },
-      featured: false
+      featured: true
     }
   ],
   messages: []

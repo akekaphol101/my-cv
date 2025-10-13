@@ -87,20 +87,20 @@ export default function ProjectDetail() {
             <img
               src={allImages[currentImageIndex]}
               alt={`${project.title} - ${currentImageIndex + 1}`}
-              className="object-cover w-full h-full transition-all duration-300"
+               className="object-contain w-full h-full transition-all duration-300 "
             />
 
             {allImages.length > 1 && (
               <>
                 <button
                   onClick={prevImage}
-                  className="absolute left-4 top-1/2 -translate-y-1/2 bg-[#0f172a]/70 backdrop-blur-sm p-2 rounded-full hover:bg-[#1e293b] transition"
+                  className="absolute left-4 top-1/2 -translate-y-1/2 cursor-pointer bg-[#0f172a]/70 backdrop-blur-sm p-2 rounded-full hover:bg-[#1e293b] transition"
                 >
                   <ChevronLeft className="h-6 w-6" />
                 </button>
                 <button
                   onClick={nextImage}
-                  className="absolute right-4 top-1/2 -translate-y-1/2 bg-[#0f172a]/70 backdrop-blur-sm p-2 rounded-full hover:bg-[#1e293b] transition"
+                  className="absolute right-4 top-1/2 -translate-y-1/2 cursor-pointer bg-[#0f172a]/70 backdrop-blur-sm p-2 rounded-full hover:bg-[#1e293b] transition"
                 >
                   <ChevronRight className="h-6 w-6" />
                 </button>
