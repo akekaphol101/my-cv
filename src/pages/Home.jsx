@@ -1,11 +1,11 @@
 import { Link } from 'react-router-dom';
-import { Github, Linkedin, Twitter, Mail, Download, ArrowRight } from 'lucide-react';
+import { Github, Youtube ,Music2 , Mail, Download, ArrowRight } from 'lucide-react';
 import { usePortfolioData } from '../utils/userPortFolioData';
 
 const socialIcons = {
   github: Github,
-  linkedin: Linkedin,
-  x: Twitter,
+  youtube: Youtube ,
+  tiktok: Music2 ,
   email: Mail,
 };
 
@@ -32,7 +32,9 @@ export default function Home() {
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-[#8b5cf6] via-[#14b8a6] to-[#8b5cf6]">
               {profile.name}
             </h1>
-
+          <h1 className="text-2xl md:text-xl lg:text-5xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-[#8b5cf6] via-[#14b8a6] to-[#8b5cf6]">
+              {profile.subName}
+            </h1>
             <p className="text-2xl md:text-3xl text-[#94a3b8] mb-6">{profile.title}</p>
             <p className="text-lg text-[#a1a1aa] mb-8 max-w-2xl mx-auto">{profile.bio}</p>
 
@@ -79,12 +81,11 @@ export default function Home() {
       {/* Stats */}
       <section className="py-12 border-y border-[#1e293b] bg-[#141620]">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-8 text-center">
             {[
               { label: 'Years Experience', value: '5+' },
               { label: 'Projects', value: projects.length },
               { label: 'Core Skills', value: profile.skills.length },
-              { label: 'Happy Clients', value: '10+' },
             ].map((item) => (
               <div key={item.label}>
                 <div className="text-4xl font-bold text-[#8b5cf6] mb-2">{item.value}</div>

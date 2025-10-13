@@ -1,10 +1,10 @@
-import { Github, Linkedin, Twitter, Mail, ArrowUp } from 'lucide-react';
+import { Github, Youtube ,Music2 , Mail, ArrowUp } from 'lucide-react';
 import { Button } from '@mui/material';
 
 const socialIcons = {
   github: Github,
-  linkedin: Linkedin,
-  x: Twitter,
+  youtube: Youtube ,
+  tiktok: Music2 ,
   email: Mail,
 };
 
@@ -16,7 +16,7 @@ export function Footer() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex flex-col md:flex-row justify-between items-center space-y-6 md:space-y-0">
           <div className="text-center md:text-left">
-            <p className="text-sm">© {new Date().getFullYear()} Alex Jordan. All rights reserved.</p>
+            <p className="text-sm">© {new Date().getFullYear()} Ctrl AKE. All rights reserved.</p>
           </div>
 
           <div className="flex space-x-4">
