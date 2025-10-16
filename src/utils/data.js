@@ -2,6 +2,10 @@
 import Logo from "../assets/img/profile/Logo.png";
 import { BubbleTea1,BubbleTea2,BubbleTea3,BubbleTea4 } from "../assets/img/projects/bubble-tea";
 import { processCan1,processCan2,processCan3 } from "../assets/img/projects/processing-can";
+import { sMushroom1,sMushroom2,sMushroom3,sMushroom4,sMushroom5,sMushroom6 } from "../assets/img/projects/steam-mushroom";
+import { sCannabis1,sCannabis2,sCannabis3,sCannabis4,sCannabis5,sCannabis6} from "../assets/img/projects/smart-cannabis";
+import { iAnalytic1,iAnalytic2,iAnalytic3,iAnalytic4,iAnalytic5} from "../assets/img/projects/image-analytic";
+
 
 
 export const seedData = {
@@ -25,7 +29,7 @@ export const seedData = {
   tags: ["React", "JavaScript", "Node.js", "Tailwind CSS", "MongoDB", "UI/UX", "Automation", "IOT","PLC","Node-RED","Arduino Boards"],
   projects: [
     {
-      id: "p-004",
+      id: "p-050",
       slug: "ecommerce-dashboard",
       title: "E-Commerce Dashboard",
       year: 2024,
@@ -65,7 +69,7 @@ export const seedData = {
       featured: true
     },
     {
-      id: "p-002",
+      id: "p-020",
       slug: "image-processing-can",
       title: "Image Processing Can",
       year: 2021,
@@ -83,6 +87,63 @@ export const seedData = {
       outcomeMd: "## The Outcome\n\nAdopted across 15 teams...",
       links: { demo: "https://www.facebook.com/share/v/1GA3dSesTr/", caseStudy: "https://www.facebook.com/share/v/1GA3dSesTr/" },
       featured: true
+    },{
+      id: "p-004",
+      slug: "image-processing-analytic",
+      title: "Image Processing Analytic",
+      year: 2021,
+      summary: "ดำเนินการออกแบบและพัฒนาSmartFarm Cannabis (ฟาร์มกัญชาอัจฉริยะ) ณ โรงเรือนปลูกกัญชา ที่ได้รับอนุญาตการปลูกกัญชาถูกต้องตามกม.โดยมีระบบเซ็นเซอร์ในการวัดค่า อุณหภูมิ, ความชื้น, pH, EC, ความสว่าง, ควบคุมการรดน้ำการให้สารอาหาร, ควบคุมพัดลมอุณหภูมิ",
+      cover: iAnalytic1,
+      gallery: [iAnalytic2, iAnalytic3, iAnalytic4, iAnalytic5],
+      categories: ["Automation", "IOT","Node-RED"],
+      tags: ["Automation", "IOT","Node-RED"],
+      techStack: ["Automation", "IOT","Node-RED","JavaScript"],
+      role: "Take Over & Creator",
+      teamSize: 3,
+      status: "Success",
+      problemMd: "วัตถุประสงค์\n\nพัฒนาการเพาะปลูกกัญชาแบบอัจฉริยะ (Smart Cannabis Farming) ณ โรงเรือนปลูกกัญชา ที่ได้รับอนุญาตการปลูกกัญชาถูกต้องตามกม. ",
+      approachMd: "รูปแบบการควบคุม\n\n- มีระบบเซ็นเซอร์ในการวัดค่า อุณหภูมิ, ความชื้น, pH, EC, ความสว่าง\n- ควบคุมการรดน้ำการให้สารอาหาร, ควบคุมพัดลมอุณหภูมิ ",
+      outcomeMd: null,
+      links: { demo: "https://www.youtube.com/watch?v=cxJd8Di15Wk", caseStudy: "https://www.facebook.com/watch/?v=3087228001512578" },
+      featured: true
+    },{
+      id: "p-003",
+      slug: "smartfarm-cannabis",
+      title: "SmartFarm Cannabis (ฟาร์มกัญชาอัจฉริยะ)",
+      year: 2021,
+      summary: "ดำเนินการออกแบบและพัฒนาSmartFarm Cannabis (ฟาร์มกัญชาอัจฉริยะ) ณ โรงเรือนปลูกกัญชา ที่ได้รับอนุญาตการปลูกกัญชาถูกต้องตามกม.โดยมีระบบเซ็นเซอร์ในการวัดค่า อุณหภูมิ, ความชื้น, pH, EC, ความสว่าง, ควบคุมการรดน้ำการให้สารอาหาร, ควบคุมพัดลมอุณหภูมิ",
+      cover: sCannabis1,
+      gallery: [sCannabis2, sCannabis3, sCannabis4, sCannabis5, sCannabis6],
+      categories: ["Automation", "IOT","PLC","Arduino Boards","Node-RED"],
+      tags: ["Automation", "IOT","PLC","Arduino Boards","Node-RED"],
+      techStack: ["Automation", "IOT","PLC","Arduino Boards","Node-RED","JavaScript"],
+      role: "Take Over & Develop",
+      teamSize: 5,
+      status: "Success",
+      problemMd: "วัตถุประสงค์\n\nพัฒนาการเพาะปลูกกัญชาแบบอัจฉริยะ (Smart Cannabis Farming) ณ โรงเรือนปลูกกัญชา ที่ได้รับอนุญาตการปลูกกัญชาถูกต้องตามกม. ",
+      approachMd: "รูปแบบการควบคุม\n\n- มีระบบเซ็นเซอร์ในการวัดค่า อุณหภูมิ, ความชื้น, pH, EC, ความสว่าง\n- ควบคุมการรดน้ำการให้สารอาหาร, ควบคุมพัดลมอุณหภูมิ ",
+      outcomeMd: null,
+      links: { demo: "https://www.youtube.com/watch?v=cxJd8Di15Wk", caseStudy: "https://www.facebook.com/share/p/16vtoHfNa3/" },
+      featured: true
+    },{
+      id: "p-002",
+      slug: "steam-mushroom-automation",
+      title: "Steam Mushroom Automation (ตู้อบลมร้อนอัตโนมัติ)",
+      year: 2021,
+      summary: "ในปัจจุบันเห็ดหลินจือ มีมูลค่าสูงจึงทำให้ชาวบ้านรวมตัวกัน เป็นวิสาหกิจชุมชนเพาะเห็ด แต่เนื่องจากเมื่อเห็ดหลินจือออกดอกแล้ว ต้องนำมาตากให้แห้ง เพื่อให้สามารถนำไปขายได้ จึงมีปัญหาที่ระยะเวลาในการตากนานเกินไป และบางครั้งหากไม่มีแสงแดดก็จะไม่สามารถตากให้แห้งได้  โดยมีแนวคิดใช้ตู้อบลมร้อน เพื่ออบเห็ดหลินจือให้แห้ง ซึ่งจะใช้เวลาน้อยกว่าในการที่นำมาตากแดด  ช่วยประหยัดเวลาได้มากขึ้นและได้ผลิตภัณฑ์ที่สมบูรณ์แบบยิ่งขึ้น",
+      cover: sMushroom1,
+      gallery: [sMushroom2, sMushroom3, sMushroom4, sMushroom5, sMushroom6],
+      categories: ["Automation", "IOT","Arduino Boards"],
+      tags: ["Automation", "IOT","Arduino Boards"],
+      techStack: ["Automation", "IOT","Arduino Boards"],
+      role: "Creator & Project",
+      teamSize: 2,
+      status: "Finish",
+      problemMd: "วัตถุประสงค์\n\n1. เพื่อสร้างตู้อบลมร้อนที่สามารถใช้งานได้ 2 ระบบ\n2. เพื่อลดเวลาในการตากเห็ดหลินจือ 7-8 กิโลกรัม น้อยกว่า 2 วัน\n3. เพื่อเพิ่มผลผลิต 10% ภายในเวลา 2 วัน\n",
+      approachMd: "รูปแบบการควบคุม\n\n- ใช้พลังงานแสงอาทิตย์ ในการให้พลังงานกับตู้อบลมร้อนในตอนกลางวัน เพื่อให้พัดลมลมร้อนทำงาน\n- ในตอนกลางคืนจะสามารถใช้ไฟบ้านในการให้พลังงานกับตู้อบลมร้อนได้\n- มีระบบเซนเซอร์ไว้สำหรับบอกอุณหภูมิและความชื้น\n- มีระบบดูดความชื้นอัตโนมัติ เมื่อเซนเซอร์ตรวจจับความชื้นได้ค่าตามที่กำหนด\n- มีระบบ Timer แจ้งเตือนเมื่อถึงเวลาต้องพลิกเห็ด\nรูปแบบการทำงานเชิงอัจฉริยะ\n\n- มีเซ็นเซอร์บอกอุณหภูมิ ตั้งค่าอุณหภูมิได้\n - มีเซ็นเซอร์บอกความชื้น ดูดความชื้นอัตโนมัติได้\n- มีการตั้งเวลา Timer เมื่อถึงเวลาที่กำหนดจะมีการแจ้งเตือน\n",
+      outcomeMd: "ประโยชน์ที่คาดว่าจะได้รับผลผลิต (Outputs) ผลลัพธ์ (Outcomes) และผลกระทบ (impact)\n\n   1 ผลผลิต (Outputs)\n•	ได้เห็ดที่แห้งสนิท\n•	ได้เห็ดที่สะอาด ปราศจากฝุ่นและแมลง\n   2 ผลลัพธ์ (Outcomes)\n•	ใช้ระยะเวลาในการตากน้อยลง\n•	ใช้ได้ตลอดทั้งกลางวันและกลางคืน จากพลังงาน 2 ระบบ\n   3 ผลกระทบ (impact)\n•	ลดเวลาในการตรวจสอบดูแล\n•	ป้องกันแมลง เชื้อรา และฝุ่นเจือปน\n",
+      links: { demo: "https://www.youtube.com/watch?v=cxJd8Di15Wk", caseStudy: "https://www.facebook.com/share/p/16vtoHfNa3/" },
+      featured: true
     },
     {
       id: "p-001",
@@ -99,8 +160,9 @@ export const seedData = {
       teamSize: 1,
       status: "Success",
       problemMd: "วัตถุประสงค์ของโครงงาน\n\n1.	เพื่อออกแบบและพัฒนาระบบตู้กดน้ำชาไข่มุกอัตโนมัติ\n2.	เพื่อออกแบบกระบวนการทำงานของระบบตู้กดน้ำชาไข่มุกอัตโนมัติ\n3.	เพื่อศึกษาออกแบบระบบเซนเซอร์ ระบบควบคุม และระบบต่อพ่วงต่างๆ ภายในของตู้กดน้ำชาไข่มุกอัตโนมัติ",
-      approachMd: "ขอบเขตของโครงงาน\n\n1.	ผู้ใช้สามารถเลือกชนิดของน้ำได้ผ่าน UI ( User interface )\n2.	ระบบสามารถรองรับการจ่ายเงินได้\n3.	ระบบสามารถผลิตน้ำชาไข่มุกได้ตามความต้องการของลูกค้า\n",
-      outcomeMd: "วัตถุประสงค์ของโครงงาน\n\n1.	เพื่อออกแบบและพัฒนาระบบตู้กดน้ำชาไข่มุกอัตโนมัติ\n2.	เพื่อออกแบบกระบวนการทำงานของระบบตู้กดน้ำชาไข่มุกอัตโนมัติ\n3.	เพื่อศึกษาออกแบบระบบเซนเซอร์ ระบบควบคุม และระบบต่อพ่วงต่างๆ ภายในของตู้กดน้ำชาไข่มุกอัตโนมัติ\n",
+      approachMd: "หลักการดำเนินการ\n\n - ตู้กดน้ำชาไข่มุกอัตโนมัติจะเริ่มจากเลือกจำนวนแก้วที่ต้องการ หลังจากนั้นหน้าจอจะโชว์จำนวนเงินที่ต้องชำระ\n- หยอดเหรียญตามจำนวนที่โชว์บนหน้าจอเพื่อให้ระบบทั้งหมดเริ่มทำงาน\n- ระบบแรกคือ ระบบปล่อยแก้ว เมื่อเซ็นเซอร์ตรวจจับว่ามีแก้วหล่นระบบต่อไปจะทำงานคือ\n- ระบบปล่อยวัตถุดิบโดยจะปล่อยไข่มุกก่อน ตามมาด้วยน้ำแข็ง ทั้ง 2 จะใช้มอเตอร์ในการปล่อย\n- และปล่อยน้ำเป็นอย่างสุดท้าย จะเป็นอันเสร็จสิ้นกระบวนการทำงานทั้งหมด",
+      outcomeMd: "ขอบเขตของโครงงาน\n\n1.	ผู้ใช้สามารถเลือกชนิดของน้ำได้ผ่าน UI ( User interface )\n2.	ระบบสามารถรองรับการจ่ายเงินได้\n3.	ระบบสามารถผลิตน้ำชาไข่มุกได้ตามความต้องการของลูกค้า\n",
+      links: {  caseStudy: "https://www.youtube.com/watch?v=Z8nKhl97RtIa" },
       featured: true
     }
   ],
