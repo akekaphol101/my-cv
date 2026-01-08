@@ -1,17 +1,44 @@
 // seed portfolio data (JS)
 import Logo from "../assets/img/profile/Logo.png";
-import { BubbleTea1,BubbleTea2,BubbleTea3,BubbleTea4 } from "../assets/img/projects/bubble-tea";
-import { processCan1,processCan2,processCan3 } from "../assets/img/projects/processing-can";
-import { sMushroom1,sMushroom2,sMushroom3,sMushroom4,sMushroom5,sMushroom6 } from "../assets/img/projects/steam-mushroom";
-import { sCannabis1,sCannabis2,sCannabis3,sCannabis4,sCannabis5,sCannabis6} from "../assets/img/projects/smart-cannabis";
-import { iAnalytic1,iAnalytic2,iAnalytic3,iAnalytic4,iAnalytic5} from "../assets/img/projects/image-analytic";
-
-
+import {
+  BubbleTea1,
+  BubbleTea2,
+  BubbleTea3,
+  BubbleTea4,
+} from "../assets/img/projects/bubble-tea";
+import {
+  processCan1,
+  processCan2,
+  processCan3,
+} from "../assets/img/projects/processing-can";
+import {
+  sMushroom1,
+  sMushroom2,
+  sMushroom3,
+  sMushroom4,
+  sMushroom5,
+  sMushroom6,
+} from "../assets/img/projects/steam-mushroom";
+import {
+  sCannabis1,
+  sCannabis2,
+  sCannabis3,
+  sCannabis4,
+  sCannabis5,
+  sCannabis6,
+} from "../assets/img/projects/smart-cannabis";
+import {
+  iAnalytic1,
+  iAnalytic2,
+  iAnalytic3,
+  iAnalytic4,
+  iAnalytic5,
+} from "../assets/img/projects/image-analytic";
 
 export const seedData = {
   profile: {
     name: "Ctrl AKE",
-    subName:"(Akekaphol Ramkaew)",
+    subName: "(Akekaphol Ramkaew)",
     title: "Full-Stack Developer & Automation IOT Engineer",
     bio: "Passionate about crafting Automation system, IOT and Web applications , Performant web experiences that solve real problems. I specialize in React, JavaScript,PLC ,IOT , and web applications.",
     avatarUrl: Logo,
@@ -19,34 +46,76 @@ export const seedData = {
     socials: [
       { type: "github", url: "https://github.com/akekaphol101" },
       { type: "youtube", url: "https://www.youtube.com/@CtrlAKE" },
-      { type: "tiktok", url: "https://www.tiktok.com/@ctrl_ake?is_from_webapp=1&sender_device=pc" },
-      { type: "email", url: "mailto:akekaphol1o1@gmail.com" }
+      {
+        type: "tiktok",
+        url: "https://www.tiktok.com/@ctrl_ake?is_from_webapp=1&sender_device=pc",
+      },
+      { type: "email", url: "mailto:akekaphol1o1@gmail.com" },
     ],
     cvUrl: "/cv.pdf",
-    skills: ["React", "JavaScript", "Node.js", "Tailwind CSS", "MongoDB","Automation","IOT","PLC","PLC Siements", "Siements IoT","PLC Mitsubishi","HMI Samkoon","Node-RED","Arduino Boards"]
+    skills: [
+      "React",
+      "JavaScript",
+      "Node.js",
+      "Tailwind CSS",
+      "MongoDB",
+      "Automation",
+      "IOT",
+      "PLC",
+      "PLC Siements",
+      "Siements IoT",
+      "PLC Mitsubishi",
+      "HMI Samkoon",
+      "Node-RED",
+      "Arduino Boards",
+    ],
   },
   categories: ["Webapp", "Automation", "IOT"],
-  tags: ["React", "JavaScript", "Node.js", "Tailwind CSS", "MongoDB", "UI/UX", "Automation", "IOT","PLC","Node-RED","Arduino Boards"],
+  tags: [
+    "React",
+    "JavaScript",
+    "Node.js",
+    "Tailwind CSS",
+    "MongoDB",
+    "UI/UX",
+    "Automation",
+    "IOT",
+    "PLC",
+    "Node-RED",
+    "Arduino Boards",
+  ],
   projects: [
     {
       id: "p-050",
       slug: "ecommerce-dashboard",
       title: "E-Commerce Dashboard",
       year: 2024,
-      summary: "Real-time analytics dashboard for tracking KPIs, sales metrics, and customer behavior across multiple channels.",
+      summary:
+        "Real-time analytics dashboard for tracking KPIs, sales metrics, and customer behavior across multiple channels.",
       cover: "/placeholder.svg",
       gallery: ["/placeholder.svg", "/placeholder.svg"],
       categories: ["Web"],
       tags: ["React", "Vite", "Tailwind", "Charts"],
-      techStack: ["React", "TypeScript", "Vite", "Tailwind CSS", "Recharts", "Socket.IO"],
+      techStack: [
+        "React",
+        "TypeScript",
+        "Vite",
+        "Tailwind CSS",
+        "Recharts",
+        "Socket.IO",
+      ],
       role: "Lead Front-End Developer",
       teamSize: 4,
       status: "Shipped",
       problemMd: "## The Problem\n\nOur client needed a unified view...",
       approachMd: "## Our Approach\n\nWe designed a custom dashboard...",
       outcomeMd: "## The Outcome\n\n✅ 80% reduction in time...",
-      links: { demo: "https://demo.example.com", repo: "https://github.com/example/dashboard", caseStudy: "https://case-study.example.com"},
-      featured: true
+      links: {
+        demo: "https://demo.example.com",
+        repo: "https://github.com/example/dashboard",
+        caseStudy: "https://case-study.example.com",
+      },
+      featured: true,
     },
     {
       id: "p-008",
@@ -66,14 +135,15 @@ export const seedData = {
       approachMd: "## Our Approach\n\nWe built a streamlined...",
       outcomeMd: "## The Outcome\n\nCurrently in beta testing...",
       links: { repo: "https://github.com/example/fitness" },
-      featured: true
+      featured: true,
     },
     {
       id: "p-020",
       slug: "image-processing-can",
       title: "Image Processing Can",
       year: 2021,
-      summary: "สร้างเครื่องตรวจจับ defect ของกระป๋องอาหารทะเลด้วยการวิเคราะห์ภาพ",
+      summary:
+        "สร้างเครื่องตรวจจับ defect ของกระป๋องอาหารทะเลด้วยการวิเคราะห์ภาพ",
       cover: processCan1,
       gallery: [processCan2, processCan3],
       categories: ["Automation", "PLC"],
@@ -85,86 +155,147 @@ export const seedData = {
       problemMd: "## The Problem\n\nInconsistent UI patterns...",
       approachMd: "## Our Approach\n\nCreated a unified design system...",
       outcomeMd: "## The Outcome\n\nAdopted across 15 teams...",
-      links: { demo: "https://www.facebook.com/share/v/1GA3dSesTr/", caseStudy: "https://www.facebook.com/share/v/1GA3dSesTr/" },
-      featured: true
-    },{
+      links: {
+        demo: "https://www.facebook.com/share/v/1GA3dSesTr/",
+        caseStudy: "https://www.facebook.com/share/v/1GA3dSesTr/",
+      },
+      featured: true,
+    },
+    {
       id: "p-004",
       slug: "image-processing-analytic",
       title: "Image Processing Analytic",
       year: 2021,
-      summary: "ดำเนินการออกแบบและพัฒนาSmartFarm Cannabis (ฟาร์มกัญชาอัจฉริยะ) ณ โรงเรือนปลูกกัญชา ที่ได้รับอนุญาตการปลูกกัญชาถูกต้องตามกม.โดยมีระบบเซ็นเซอร์ในการวัดค่า อุณหภูมิ, ความชื้น, pH, EC, ความสว่าง, ควบคุมการรดน้ำการให้สารอาหาร, ควบคุมพัดลมอุณหภูมิ",
-      cover: iAnalytic1,
-      gallery: [iAnalytic2, iAnalytic3, iAnalytic4, iAnalytic5],
-      categories: ["Automation", "IOT","Node-RED"],
-      tags: ["Automation", "IOT","Node-RED"],
-      techStack: ["Automation", "IOT","Node-RED","JavaScript"],
+      summary:
+        "ดำเนินการออกแบบและพัฒนาSmartFarm Cannabis (ฟาร์มกัญชาอัจฉริยะ) ณ โรงเรือนปลูกกัญชา ที่ได้รับอนุญาตการปลูกกัญชาถูกต้องตามกม.โดยมีระบบเซ็นเซอร์ในการวัดค่า อุณหภูมิ, ความชื้น, pH, EC, ความสว่าง, ควบคุมการรดน้ำการให้สารอาหาร, ควบคุมพัดลมอุณหภูมิ",
+      cover:
+        "https://drive.google.com/file/d/1U2R42-hh1LFUyw95Ja2fRdkW2ZpgRVYw/view?usp=sharing",
+      gallery: [
+        "https://drive.google.com/file/d/1Tsw4YOFZwYDu958jXKOxz0WprYrHTwEw/view?usp=sharing",
+        "https://drive.google.com/file/d/1cv54uwqZupNyl-wUe0fkvq-A2zJ6p3dh/view?usp=sharing",
+        "https://drive.google.com/file/d/1Uocgo9UFCVvRx_7cKMx258iv5zHM3-1p/view?usp=sharing",
+        "https://drive.google.com/file/d/1J7H6mFLLNb8PFE3zDSOaTJcXNHZXzfZm/view?usp=sharing",
+      ],
+      categories: ["Automation", "IOT", "Node-RED"],
+      tags: ["Automation", "IOT", "Node-RED"],
+      techStack: ["Automation", "IOT", "Node-RED", "JavaScript"],
       role: "Take Over & Creator",
       teamSize: 3,
       status: "Success",
-      problemMd: "วัตถุประสงค์\n\nพัฒนาการเพาะปลูกกัญชาแบบอัจฉริยะ (Smart Cannabis Farming) ณ โรงเรือนปลูกกัญชา ที่ได้รับอนุญาตการปลูกกัญชาถูกต้องตามกม. ",
-      approachMd: "รูปแบบการควบคุม\n\n- มีระบบเซ็นเซอร์ในการวัดค่า อุณหภูมิ, ความชื้น, pH, EC, ความสว่าง\n- ควบคุมการรดน้ำการให้สารอาหาร, ควบคุมพัดลมอุณหภูมิ ",
+      problemMd:
+        "วัตถุประสงค์\n\nพัฒนาการเพาะปลูกกัญชาแบบอัจฉริยะ (Smart Cannabis Farming) ณ โรงเรือนปลูกกัญชา ที่ได้รับอนุญาตการปลูกกัญชาถูกต้องตามกม. ",
+      approachMd:
+        "รูปแบบการควบคุม\n\n- มีระบบเซ็นเซอร์ในการวัดค่า อุณหภูมิ, ความชื้น, pH, EC, ความสว่าง\n- ควบคุมการรดน้ำการให้สารอาหาร, ควบคุมพัดลมอุณหภูมิ ",
       outcomeMd: null,
-      links: { demo: "https://www.youtube.com/watch?v=cxJd8Di15Wk", caseStudy: "https://www.facebook.com/watch/?v=3087228001512578" },
-      featured: true
-    },{
+      links: {
+        demo: "https://www.youtube.com/watch?v=cxJd8Di15Wk",
+        caseStudy: "https://www.facebook.com/watch/?v=3087228001512578",
+      },
+      featured: true,
+    },
+    {
       id: "p-003",
       slug: "smartfarm-cannabis",
       title: "SmartFarm Cannabis (ฟาร์มกัญชาอัจฉริยะ)",
       year: 2021,
-      summary: "ดำเนินการออกแบบและพัฒนาSmartFarm Cannabis (ฟาร์มกัญชาอัจฉริยะ) ณ โรงเรือนปลูกกัญชา ที่ได้รับอนุญาตการปลูกกัญชาถูกต้องตามกม.โดยมีระบบเซ็นเซอร์ในการวัดค่า อุณหภูมิ, ความชื้น, pH, EC, ความสว่าง, ควบคุมการรดน้ำการให้สารอาหาร, ควบคุมพัดลมอุณหภูมิ",
-      cover: sCannabis1,
-      gallery: [sCannabis2, sCannabis3, sCannabis4, sCannabis5, sCannabis6],
-      categories: ["Automation", "IOT","PLC","Arduino Boards","Node-RED"],
-      tags: ["Automation", "IOT","PLC","Arduino Boards","Node-RED"],
-      techStack: ["Automation", "IOT","PLC","Arduino Boards","Node-RED","JavaScript"],
+      summary:
+        "ดำเนินการออกแบบและพัฒนาSmartFarm Cannabis (ฟาร์มกัญชาอัจฉริยะ) ณ โรงเรือนปลูกกัญชา ที่ได้รับอนุญาตการปลูกกัญชาถูกต้องตามกม.โดยมีระบบเซ็นเซอร์ในการวัดค่า อุณหภูมิ, ความชื้น, pH, EC, ความสว่าง, ควบคุมการรดน้ำการให้สารอาหาร, ควบคุมพัดลมอุณหภูมิ",
+      cover:
+        "https://drive.google.com/file/d/13FFDy9xSrSOJzBrFWvoxwk5wrWDKM-1S/view?usp=sharing",
+      gallery: [
+        "https://drive.google.com/file/d/1R-wdp6gMn7mku-eAVxLqxJkY0PlEUM06/view?usp=sharing",
+        "https://drive.google.com/file/d/16ZLq7X6ExS4HL6c52CbYY7DXcgFM_5QV/view?usp=sharing",
+        "https://drive.google.com/file/d/13qVIbWV-fShmNU2LI1Z-A-lz1dshnqJS/view?usp=sharing",
+        "https://drive.google.com/file/d/1kzFe-0uDiN77jGeEMY-nWt9Cj_pKKSsl/view?usp=sharing",
+        "https://drive.google.com/file/d/1nBjl2XxlG1Nz5Qlom4aCcduAaeWEbAnu/view?usp=sharing",
+      ],
+      categories: ["Automation", "IOT", "PLC", "Arduino Boards", "Node-RED"],
+      tags: ["Automation", "IOT", "PLC", "Arduino Boards", "Node-RED"],
+      techStack: [
+        "Automation",
+        "IOT",
+        "PLC",
+        "Arduino Boards",
+        "Node-RED",
+        "JavaScript",
+      ],
       role: "Take Over & Develop",
       teamSize: 5,
       status: "Success",
-      problemMd: "วัตถุประสงค์\n\nพัฒนาการเพาะปลูกกัญชาแบบอัจฉริยะ (Smart Cannabis Farming) ณ โรงเรือนปลูกกัญชา ที่ได้รับอนุญาตการปลูกกัญชาถูกต้องตามกม. ",
-      approachMd: "รูปแบบการควบคุม\n\n- มีระบบเซ็นเซอร์ในการวัดค่า อุณหภูมิ, ความชื้น, pH, EC, ความสว่าง\n- ควบคุมการรดน้ำการให้สารอาหาร, ควบคุมพัดลมอุณหภูมิ ",
+      problemMd:
+        "วัตถุประสงค์\n\nพัฒนาการเพาะปลูกกัญชาแบบอัจฉริยะ (Smart Cannabis Farming) ณ โรงเรือนปลูกกัญชา ที่ได้รับอนุญาตการปลูกกัญชาถูกต้องตามกม. ",
+      approachMd:
+        "รูปแบบการควบคุม\n\n- มีระบบเซ็นเซอร์ในการวัดค่า อุณหภูมิ, ความชื้น, pH, EC, ความสว่าง\n- ควบคุมการรดน้ำการให้สารอาหาร, ควบคุมพัดลมอุณหภูมิ ",
       outcomeMd: null,
-      links: { demo: "https://www.youtube.com/watch?v=cxJd8Di15Wk", caseStudy: "https://www.facebook.com/share/p/16vtoHfNa3/" },
-      featured: true
-    },{
+      links: {
+        demo: "https://www.youtube.com/watch?v=cxJd8Di15Wk",
+        caseStudy: "https://www.facebook.com/share/p/16vtoHfNa3/",
+      },
+      featured: true,
+    },
+    {
       id: "p-002",
       slug: "steam-mushroom-automation",
       title: "Steam Mushroom Automation (ตู้อบลมร้อนอัตโนมัติ)",
       year: 2021,
-      summary: "ในปัจจุบันเห็ดหลินจือ มีมูลค่าสูงจึงทำให้ชาวบ้านรวมตัวกัน เป็นวิสาหกิจชุมชนเพาะเห็ด แต่เนื่องจากเมื่อเห็ดหลินจือออกดอกแล้ว ต้องนำมาตากให้แห้ง เพื่อให้สามารถนำไปขายได้ จึงมีปัญหาที่ระยะเวลาในการตากนานเกินไป และบางครั้งหากไม่มีแสงแดดก็จะไม่สามารถตากให้แห้งได้  โดยมีแนวคิดใช้ตู้อบลมร้อน เพื่ออบเห็ดหลินจือให้แห้ง ซึ่งจะใช้เวลาน้อยกว่าในการที่นำมาตากแดด  ช่วยประหยัดเวลาได้มากขึ้นและได้ผลิตภัณฑ์ที่สมบูรณ์แบบยิ่งขึ้น",
-      cover: sMushroom1,
-      gallery: [sMushroom2, sMushroom3, sMushroom4, sMushroom5, sMushroom6],
-      categories: ["Automation", "IOT","Arduino Boards"],
-      tags: ["Automation", "IOT","Arduino Boards"],
-      techStack: ["Automation", "IOT","Arduino Boards"],
+      summary:
+        "ในปัจจุบันเห็ดหลินจือ มีมูลค่าสูงจึงทำให้ชาวบ้านรวมตัวกัน เป็นวิสาหกิจชุมชนเพาะเห็ด แต่เนื่องจากเมื่อเห็ดหลินจือออกดอกแล้ว ต้องนำมาตากให้แห้ง เพื่อให้สามารถนำไปขายได้ จึงมีปัญหาที่ระยะเวลาในการตากนานเกินไป และบางครั้งหากไม่มีแสงแดดก็จะไม่สามารถตากให้แห้งได้  โดยมีแนวคิดใช้ตู้อบลมร้อน เพื่ออบเห็ดหลินจือให้แห้ง ซึ่งจะใช้เวลาน้อยกว่าในการที่นำมาตากแดด  ช่วยประหยัดเวลาได้มากขึ้นและได้ผลิตภัณฑ์ที่สมบูรณ์แบบยิ่งขึ้น",
+      cover:
+        "https://drive.google.com/file/d/1ZR_uUHlFt6JfbXBgenRFJrMbb17WmXZL/view?usp=sharing",
+      gallery: [
+        "https://drive.google.com/file/d/1nViZS9oBZSP7wOKRDOOphXiogxhRiqNd/view?usp=sharing",
+        "https://drive.google.com/file/d/1TTat_2-HZfD_Q9D6CnzSG-yPBikB9wSK/view?usp=sharing",
+        "https://drive.google.com/file/d/1BKY37_SZOcVQ7qlldw2hj-0RsqmktLYR/view?usp=sharing",
+        "https://drive.google.com/file/d/1f60nRn-ZjM2IoPgDbfUqGSjUvkrtqVhZ/view?usp=sharing",
+        "https://drive.google.com/file/d/1hoKbzBONWpa2C9cRn0KhtWAGilnaGAIk/view?usp=sharing",
+      ],
+      categories: ["Automation", "IOT", "Arduino Boards"],
+      tags: ["Automation", "IOT", "Arduino Boards"],
+      techStack: ["Automation", "IOT", "Arduino Boards"],
       role: "Creator & Project",
       teamSize: 2,
       status: "Finish",
-      problemMd: "วัตถุประสงค์\n\n1. เพื่อสร้างตู้อบลมร้อนที่สามารถใช้งานได้ 2 ระบบ\n2. เพื่อลดเวลาในการตากเห็ดหลินจือ 7-8 กิโลกรัม น้อยกว่า 2 วัน\n3. เพื่อเพิ่มผลผลิต 10% ภายในเวลา 2 วัน\n",
-      approachMd: "รูปแบบการควบคุม\n\n- ใช้พลังงานแสงอาทิตย์ ในการให้พลังงานกับตู้อบลมร้อนในตอนกลางวัน เพื่อให้พัดลมลมร้อนทำงาน\n- ในตอนกลางคืนจะสามารถใช้ไฟบ้านในการให้พลังงานกับตู้อบลมร้อนได้\n- มีระบบเซนเซอร์ไว้สำหรับบอกอุณหภูมิและความชื้น\n- มีระบบดูดความชื้นอัตโนมัติ เมื่อเซนเซอร์ตรวจจับความชื้นได้ค่าตามที่กำหนด\n- มีระบบ Timer แจ้งเตือนเมื่อถึงเวลาต้องพลิกเห็ด\nรูปแบบการทำงานเชิงอัจฉริยะ\n\n- มีเซ็นเซอร์บอกอุณหภูมิ ตั้งค่าอุณหภูมิได้\n - มีเซ็นเซอร์บอกความชื้น ดูดความชื้นอัตโนมัติได้\n- มีการตั้งเวลา Timer เมื่อถึงเวลาที่กำหนดจะมีการแจ้งเตือน\n",
-      outcomeMd: "ประโยชน์ที่คาดว่าจะได้รับผลผลิต (Outputs) ผลลัพธ์ (Outcomes) และผลกระทบ (impact)\n\n   1 ผลผลิต (Outputs)\n•	ได้เห็ดที่แห้งสนิท\n•	ได้เห็ดที่สะอาด ปราศจากฝุ่นและแมลง\n   2 ผลลัพธ์ (Outcomes)\n•	ใช้ระยะเวลาในการตากน้อยลง\n•	ใช้ได้ตลอดทั้งกลางวันและกลางคืน จากพลังงาน 2 ระบบ\n   3 ผลกระทบ (impact)\n•	ลดเวลาในการตรวจสอบดูแล\n•	ป้องกันแมลง เชื้อรา และฝุ่นเจือปน\n",
-      links: { demo: "https://www.youtube.com/watch?v=cxJd8Di15Wk", caseStudy: "https://www.facebook.com/share/p/16vtoHfNa3/" },
-      featured: true
+      problemMd:
+        "วัตถุประสงค์\n\n1. เพื่อสร้างตู้อบลมร้อนที่สามารถใช้งานได้ 2 ระบบ\n2. เพื่อลดเวลาในการตากเห็ดหลินจือ 7-8 กิโลกรัม น้อยกว่า 2 วัน\n3. เพื่อเพิ่มผลผลิต 10% ภายในเวลา 2 วัน\n",
+      approachMd:
+        "รูปแบบการควบคุม\n\n- ใช้พลังงานแสงอาทิตย์ ในการให้พลังงานกับตู้อบลมร้อนในตอนกลางวัน เพื่อให้พัดลมลมร้อนทำงาน\n- ในตอนกลางคืนจะสามารถใช้ไฟบ้านในการให้พลังงานกับตู้อบลมร้อนได้\n- มีระบบเซนเซอร์ไว้สำหรับบอกอุณหภูมิและความชื้น\n- มีระบบดูดความชื้นอัตโนมัติ เมื่อเซนเซอร์ตรวจจับความชื้นได้ค่าตามที่กำหนด\n- มีระบบ Timer แจ้งเตือนเมื่อถึงเวลาต้องพลิกเห็ด\nรูปแบบการทำงานเชิงอัจฉริยะ\n\n- มีเซ็นเซอร์บอกอุณหภูมิ ตั้งค่าอุณหภูมิได้\n - มีเซ็นเซอร์บอกความชื้น ดูดความชื้นอัตโนมัติได้\n- มีการตั้งเวลา Timer เมื่อถึงเวลาที่กำหนดจะมีการแจ้งเตือน\n",
+      outcomeMd:
+        "ประโยชน์ที่คาดว่าจะได้รับผลผลิต (Outputs) ผลลัพธ์ (Outcomes) และผลกระทบ (impact)\n\n   1 ผลผลิต (Outputs)\n•	ได้เห็ดที่แห้งสนิท\n•	ได้เห็ดที่สะอาด ปราศจากฝุ่นและแมลง\n   2 ผลลัพธ์ (Outcomes)\n•	ใช้ระยะเวลาในการตากน้อยลง\n•	ใช้ได้ตลอดทั้งกลางวันและกลางคืน จากพลังงาน 2 ระบบ\n   3 ผลกระทบ (impact)\n•	ลดเวลาในการตรวจสอบดูแล\n•	ป้องกันแมลง เชื้อรา และฝุ่นเจือปน\n",
+      links: {
+        demo: "https://www.youtube.com/watch?v=cxJd8Di15Wk",
+        caseStudy: "https://www.facebook.com/share/p/16vtoHfNa3/",
+      },
+      featured: true,
     },
     {
       id: "p-001",
       slug: "automatic-bubble-tea-dispenser",
       title: "Automatic Bubble Tea Dispenser (ตู้กดน้ำชาไข่มุกอัตโนมัติ)",
       year: 2021,
-      summary: "ระบบอัตโนมัติ หรือ Automation คือ ระบบที่สามารถทำงานได้ด้วยตนเอง ทำงานตามที่ได้มีการวางโปรแกรมไว้ อาจใช้กลไกของคอมพิวเตอร์หรืออุปกรณ์อิเล็กทรอนิกส์ควบคุมโดยมีการวางโปรแกรมจากมนุษย์ ระบบอัตโนมัติมีหน้าที่เพื่ออำนวยความสะดวกสบายในการดำเนินชีวิตของมนุษย์ และช่วยลดความเสียหายจากการทำงานโดยแรงงานมนุษย์ และยังสามารถผลิตสินค้าออกมาได้อย่างมีมาตรฐาน ในปัจจุบันระบบอัตโนมัติหรือ Automation ได้เข้ามามีบทบาทในชีวิตประจำวันอย่างมากโดยเฉพาะตู้หยอดเหรียญอัตโนมัติต่าง ๆ ที่อำนวยความสะดวกอย่างมาก เช่น ตู้กดน้ำอัตโนมัติ ตู้เติมเงินโทรศัพท์เครื่องซักผ้าหยอดเหรียญ เป็นต้นเนื่องจากในปัจจุบันชาไข่มุกได้เป็นที่นิยมอย่างมาก มีธุรกิจเกี่ยวกับชาไข่มุกมากมายซึ่งจะมีรูปแบบการสั่งซื้อการขายที่แตกต่างกันไป ส่วนใหญ่จะเป็นรูปแบบการสั่งซื้อผ่านหน้าร้าน จะมีพนักงานเป็นผู้ที่จัดทำชาไข่มุกแต่ละแก้วตามที่ลูกค้าสั่ง แต่ยังไม่มีรูปแบบของตู้กดที่เป็นอัตโนมัติ จึงทำให้ทางผู้จัดทำเลือกที่จะนำชาไข่มุกมาจัดทำรูปแบบการสั่งซื้อผ่านทางตู้กดน้ำชาไข่มุกอัตโนมัติโดยใช้รูปแบบของตู้หยอดเหรียญเข้ามาเพื่อนำไปสู่การพัฒนาระบบอัตโนมัติหรือ Automation ต่อไปวัตถุประสงค์ของโครงงาน",
-      cover: BubbleTea1,
-      gallery: [BubbleTea2, BubbleTea3, BubbleTea4],
+      summary:
+        "ระบบอัตโนมัติ หรือ Automation คือ ระบบที่สามารถทำงานได้ด้วยตนเอง ทำงานตามที่ได้มีการวางโปรแกรมไว้ อาจใช้กลไกของคอมพิวเตอร์หรืออุปกรณ์อิเล็กทรอนิกส์ควบคุมโดยมีการวางโปรแกรมจากมนุษย์ ระบบอัตโนมัติมีหน้าที่เพื่ออำนวยความสะดวกสบายในการดำเนินชีวิตของมนุษย์ และช่วยลดความเสียหายจากการทำงานโดยแรงงานมนุษย์ และยังสามารถผลิตสินค้าออกมาได้อย่างมีมาตรฐาน ในปัจจุบันระบบอัตโนมัติหรือ Automation ได้เข้ามามีบทบาทในชีวิตประจำวันอย่างมากโดยเฉพาะตู้หยอดเหรียญอัตโนมัติต่าง ๆ ที่อำนวยความสะดวกอย่างมาก เช่น ตู้กดน้ำอัตโนมัติ ตู้เติมเงินโทรศัพท์เครื่องซักผ้าหยอดเหรียญ เป็นต้นเนื่องจากในปัจจุบันชาไข่มุกได้เป็นที่นิยมอย่างมาก มีธุรกิจเกี่ยวกับชาไข่มุกมากมายซึ่งจะมีรูปแบบการสั่งซื้อการขายที่แตกต่างกันไป ส่วนใหญ่จะเป็นรูปแบบการสั่งซื้อผ่านหน้าร้าน จะมีพนักงานเป็นผู้ที่จัดทำชาไข่มุกแต่ละแก้วตามที่ลูกค้าสั่ง แต่ยังไม่มีรูปแบบของตู้กดที่เป็นอัตโนมัติ จึงทำให้ทางผู้จัดทำเลือกที่จะนำชาไข่มุกมาจัดทำรูปแบบการสั่งซื้อผ่านทางตู้กดน้ำชาไข่มุกอัตโนมัติโดยใช้รูปแบบของตู้หยอดเหรียญเข้ามาเพื่อนำไปสู่การพัฒนาระบบอัตโนมัติหรือ Automation ต่อไปวัตถุประสงค์ของโครงงาน",
+      cover:
+        "https://drive.google.com/file/d/1_95aJTkWLlOwhuqU9gu2fLsr3qjrquIk/view?usp=sharing",
+      gallery: [
+        "https://drive.google.com/file/d/151AkJqgOsJMVDS7s3B9dyNgMdHpFJ3sd/view?usp=sharing",
+        "https://drive.google.com/file/d/1y_97HDUNUG3lJHJ3moN_wh-gPEJ9Vx3J/view?usp=sharing",
+        "https://drive.google.com/file/d/1_Zu3JHzkiGGfoM-Q1XibMsK2pIWy1xev/view?usp=sharing",
+      ],
       categories: ["Automation"],
       tags: ["Automation", "Node-RED"],
       techStack: ["Automation", "Node-RED", "JavaScript"],
       role: "Creator & Project",
       teamSize: 1,
       status: "Success",
-      problemMd: "วัตถุประสงค์ของโครงงาน\n\n1.	เพื่อออกแบบและพัฒนาระบบตู้กดน้ำชาไข่มุกอัตโนมัติ\n2.	เพื่อออกแบบกระบวนการทำงานของระบบตู้กดน้ำชาไข่มุกอัตโนมัติ\n3.	เพื่อศึกษาออกแบบระบบเซนเซอร์ ระบบควบคุม และระบบต่อพ่วงต่างๆ ภายในของตู้กดน้ำชาไข่มุกอัตโนมัติ",
-      approachMd: "หลักการดำเนินการ\n\n - ตู้กดน้ำชาไข่มุกอัตโนมัติจะเริ่มจากเลือกจำนวนแก้วที่ต้องการ หลังจากนั้นหน้าจอจะโชว์จำนวนเงินที่ต้องชำระ\n- หยอดเหรียญตามจำนวนที่โชว์บนหน้าจอเพื่อให้ระบบทั้งหมดเริ่มทำงาน\n- ระบบแรกคือ ระบบปล่อยแก้ว เมื่อเซ็นเซอร์ตรวจจับว่ามีแก้วหล่นระบบต่อไปจะทำงานคือ\n- ระบบปล่อยวัตถุดิบโดยจะปล่อยไข่มุกก่อน ตามมาด้วยน้ำแข็ง ทั้ง 2 จะใช้มอเตอร์ในการปล่อย\n- และปล่อยน้ำเป็นอย่างสุดท้าย จะเป็นอันเสร็จสิ้นกระบวนการทำงานทั้งหมด",
-      outcomeMd: "ขอบเขตของโครงงาน\n\n1.	ผู้ใช้สามารถเลือกชนิดของน้ำได้ผ่าน UI ( User interface )\n2.	ระบบสามารถรองรับการจ่ายเงินได้\n3.	ระบบสามารถผลิตน้ำชาไข่มุกได้ตามความต้องการของลูกค้า\n",
-      links: {  caseStudy: "https://www.youtube.com/watch?v=Z8nKhl97RtIa" },
-      featured: true
-    }
+      problemMd:
+        "วัตถุประสงค์ของโครงงาน\n\n1.	เพื่อออกแบบและพัฒนาระบบตู้กดน้ำชาไข่มุกอัตโนมัติ\n2.	เพื่อออกแบบกระบวนการทำงานของระบบตู้กดน้ำชาไข่มุกอัตโนมัติ\n3.	เพื่อศึกษาออกแบบระบบเซนเซอร์ ระบบควบคุม และระบบต่อพ่วงต่างๆ ภายในของตู้กดน้ำชาไข่มุกอัตโนมัติ",
+      approachMd:
+        "หลักการดำเนินการ\n\n - ตู้กดน้ำชาไข่มุกอัตโนมัติจะเริ่มจากเลือกจำนวนแก้วที่ต้องการ หลังจากนั้นหน้าจอจะโชว์จำนวนเงินที่ต้องชำระ\n- หยอดเหรียญตามจำนวนที่โชว์บนหน้าจอเพื่อให้ระบบทั้งหมดเริ่มทำงาน\n- ระบบแรกคือ ระบบปล่อยแก้ว เมื่อเซ็นเซอร์ตรวจจับว่ามีแก้วหล่นระบบต่อไปจะทำงานคือ\n- ระบบปล่อยวัตถุดิบโดยจะปล่อยไข่มุกก่อน ตามมาด้วยน้ำแข็ง ทั้ง 2 จะใช้มอเตอร์ในการปล่อย\n- และปล่อยน้ำเป็นอย่างสุดท้าย จะเป็นอันเสร็จสิ้นกระบวนการทำงานทั้งหมด",
+      outcomeMd:
+        "ขอบเขตของโครงงาน\n\n1.	ผู้ใช้สามารถเลือกชนิดของน้ำได้ผ่าน UI ( User interface )\n2.	ระบบสามารถรองรับการจ่ายเงินได้\n3.	ระบบสามารถผลิตน้ำชาไข่มุกได้ตามความต้องการของลูกค้า\n",
+      links: { caseStudy: "https://www.youtube.com/watch?v=Z8nKhl97RtIa" },
+      featured: true,
+    },
   ],
-  messages: []
+  messages: [],
 };
