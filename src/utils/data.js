@@ -241,13 +241,13 @@ export const seedData = {
       summary:
         "ในปัจจุบันเห็ดหลินจือ มีมูลค่าสูงจึงทำให้ชาวบ้านรวมตัวกัน เป็นวิสาหกิจชุมชนเพาะเห็ด แต่เนื่องจากเมื่อเห็ดหลินจือออกดอกแล้ว ต้องนำมาตากให้แห้ง เพื่อให้สามารถนำไปขายได้ จึงมีปัญหาที่ระยะเวลาในการตากนานเกินไป และบางครั้งหากไม่มีแสงแดดก็จะไม่สามารถตากให้แห้งได้  โดยมีแนวคิดใช้ตู้อบลมร้อน เพื่ออบเห็ดหลินจือให้แห้ง ซึ่งจะใช้เวลาน้อยกว่าในการที่นำมาตากแดด  ช่วยประหยัดเวลาได้มากขึ้นและได้ผลิตภัณฑ์ที่สมบูรณ์แบบยิ่งขึ้น",
       cover:
-        "https://drive.google.com/file/d/1ZR_uUHlFt6JfbXBgenRFJrMbb17WmXZL/view?usp=sharing",
+        "https://storage.googleapis.com/image-storage-ake/1000002306.jpg",
       gallery: [
-        "https://drive.google.com/file/d/1nViZS9oBZSP7wOKRDOOphXiogxhRiqNd/view?usp=sharing",
-        "https://drive.google.com/file/d/1TTat_2-HZfD_Q9D6CnzSG-yPBikB9wSK/view?usp=sharing",
-        "https://drive.google.com/file/d/1BKY37_SZOcVQ7qlldw2hj-0RsqmktLYR/view?usp=sharing",
-        "https://drive.google.com/file/d/1f60nRn-ZjM2IoPgDbfUqGSjUvkrtqVhZ/view?usp=sharing",
-        "https://drive.google.com/file/d/1hoKbzBONWpa2C9cRn0KhtWAGilnaGAIk/view?usp=sharing",
+        "https://storage.googleapis.com/image-storage-ake/1000002308.jpg",
+        "https://storage.googleapis.com/image-storage-ake/1000002305.jpg",
+        "https://storage.googleapis.com/image-storage-ake/1000002308.jpg",
+        "https://storage.googleapis.com/image-storage-ake/1000002309.jpg",
+        "https://storage.googleapis.com/image-storage-ake/1000002310.jpg",
       ],
       categories: ["Automation", "IOT", "Arduino Boards"],
       tags: ["Automation", "IOT", "Arduino Boards"],
@@ -275,11 +275,11 @@ export const seedData = {
       summary:
         "ระบบอัตโนมัติ หรือ Automation คือ ระบบที่สามารถทำงานได้ด้วยตนเอง ทำงานตามที่ได้มีการวางโปรแกรมไว้ อาจใช้กลไกของคอมพิวเตอร์หรืออุปกรณ์อิเล็กทรอนิกส์ควบคุมโดยมีการวางโปรแกรมจากมนุษย์ ระบบอัตโนมัติมีหน้าที่เพื่ออำนวยความสะดวกสบายในการดำเนินชีวิตของมนุษย์ และช่วยลดความเสียหายจากการทำงานโดยแรงงานมนุษย์ และยังสามารถผลิตสินค้าออกมาได้อย่างมีมาตรฐาน ในปัจจุบันระบบอัตโนมัติหรือ Automation ได้เข้ามามีบทบาทในชีวิตประจำวันอย่างมากโดยเฉพาะตู้หยอดเหรียญอัตโนมัติต่าง ๆ ที่อำนวยความสะดวกอย่างมาก เช่น ตู้กดน้ำอัตโนมัติ ตู้เติมเงินโทรศัพท์เครื่องซักผ้าหยอดเหรียญ เป็นต้นเนื่องจากในปัจจุบันชาไข่มุกได้เป็นที่นิยมอย่างมาก มีธุรกิจเกี่ยวกับชาไข่มุกมากมายซึ่งจะมีรูปแบบการสั่งซื้อการขายที่แตกต่างกันไป ส่วนใหญ่จะเป็นรูปแบบการสั่งซื้อผ่านหน้าร้าน จะมีพนักงานเป็นผู้ที่จัดทำชาไข่มุกแต่ละแก้วตามที่ลูกค้าสั่ง แต่ยังไม่มีรูปแบบของตู้กดที่เป็นอัตโนมัติ จึงทำให้ทางผู้จัดทำเลือกที่จะนำชาไข่มุกมาจัดทำรูปแบบการสั่งซื้อผ่านทางตู้กดน้ำชาไข่มุกอัตโนมัติโดยใช้รูปแบบของตู้หยอดเหรียญเข้ามาเพื่อนำไปสู่การพัฒนาระบบอัตโนมัติหรือ Automation ต่อไปวัตถุประสงค์ของโครงงาน",
       cover:
-        "https://drive.google.com/file/d/1_95aJTkWLlOwhuqU9gu2fLsr3qjrquIk/view?usp=sharing",
+        "https://storage.googleapis.com/image-storage-ake/1000002303.jpg",
       gallery: [
-        "https://drive.google.com/file/d/151AkJqgOsJMVDS7s3B9dyNgMdHpFJ3sd/view?usp=sharing",
-        "https://drive.google.com/file/d/1y_97HDUNUG3lJHJ3moN_wh-gPEJ9Vx3J/view?usp=sharing",
-        "https://drive.google.com/file/d/1_Zu3JHzkiGGfoM-Q1XibMsK2pIWy1xev/view?usp=sharing",
+        "https://storage.googleapis.com/image-storage-ake/1000002301.jpg",
+        "https://storage.googleapis.com/image-storage-ake/1000002297.png",
+        "https://storage.googleapis.com/image-storage-ake/1000002302.jpg",
       ],
       categories: ["Automation"],
       tags: ["Automation", "Node-RED"],
