@@ -162,12 +162,12 @@ export const seedData = {
       featured: true,
     },
     {
-      id: "p-004",
+      id: "p-005",
       slug: "image-processing-analytic",
       title: "Image Processing Analytic",
       year: 2021,
       summary:
-        "ดำเนินการออกแบบและพัฒนาSmartFarm Cannabis (ฟาร์มกัญชาอัจฉริยะ) ณ โรงเรือนปลูกกัญชา ที่ได้รับอนุญาตการปลูกกัญชาถูกต้องตามกม.โดยมีระบบเซ็นเซอร์ในการวัดค่า อุณหภูมิ, ความชื้น, pH, EC, ความสว่าง, ควบคุมการรดน้ำการให้สารอาหาร, ควบคุมพัดลมอุณหภูมิ",
+        "ดำเนินการออกแบบและพัฒนา SmartFarm Cannabis (ฟาร์มกัญชาอัจฉริยะ) ณ โรงเรือนปลูกกัญชา ที่ได้รับอนุญาตการปลูกกัญชาถูกต้องตามกฎหมาย โดยมีระบบเซ็นเซอร์ในการวัดค่า อุณหภูมิ, ความชื้น, pH, EC, ความสว่าง, ควบคุมการรดน้ำการให้สารอาหาร, ควบคุมพัดลมอุณหภูมิ\n \n *โดยเป็นการรับช่วงต่อสำหรับดูแลและพัฒนาต่อจากทีมเดิม*",
       cover:
         "https://drive.google.com/file/d/1U2R42-hh1LFUyw95Ja2fRdkW2ZpgRVYw/view?usp=sharing",
       gallery: [
@@ -183,7 +183,39 @@ export const seedData = {
       teamSize: 3,
       status: "Success",
       problemMd:
-        "วัตถุประสงค์\n\nพัฒนาการเพาะปลูกกัญชาแบบอัจฉริยะ (Smart Cannabis Farming) ณ โรงเรือนปลูกกัญชา ที่ได้รับอนุญาตการปลูกกัญชาถูกต้องตามกม. ",
+        "วัตถุประสงค์\n\nพัฒนาการเพาะปลูกกัญชาแบบอัจฉริยะ (Smart Cannabis Farming) ณ โรงเรือนปลูกกัญชา ที่ได้รับอนุญาตการปลูกกัญชาถูกต้องตามกฎหมาย ",
+      approachMd:
+        "รูปแบบการควบคุม\n\n- มีระบบเซ็นเซอร์ในการวัดค่า อุณหภูมิ, ความชื้น, pH, EC, ความสว่าง\n- ควบคุมการรดน้ำการให้สารอาหาร, ควบคุมพัดลมอุณหภูมิ ",
+      outcomeMd: null,
+      links: {
+        demo: "https://www.youtube.com/watch?v=cxJd8Di15Wk",
+        caseStudy: "https://www.facebook.com/watch/?v=3087228001512578",
+      },
+      featured: true,
+    },
+    {
+      id: "p-004",
+      slug: "Smart Power Meter ",
+      title: "Smart Power Meter",
+      year: 2021,
+      summary:
+        "ดำเนินการออกแบบแล พัฒนาและติดตั้งระบบ Smart Power Meter เพื่อการจัดการและบริหารค่าไฟฟของโรงแรมอย่างมีประสิทธิภาพ",
+      cover:
+        "https://drive.google.com/file/d/1U2R42-hh1LFUyw95Ja2fRdkW2ZpgRVYw/view?usp=sharing",
+      gallery: [
+        "https://drive.google.com/file/d/1Tsw4YOFZwYDu958jXKOxz0WprYrHTwEw/view?usp=sharing",
+        "https://drive.google.com/file/d/1cv54uwqZupNyl-wUe0fkvq-A2zJ6p3dh/view?usp=sharing",
+        "https://drive.google.com/file/d/1Uocgo9UFCVvRx_7cKMx258iv5zHM3-1p/view?usp=sharing",
+        "https://drive.google.com/file/d/1J7H6mFLLNb8PFE3zDSOaTJcXNHZXzfZm/view?usp=sharing",
+      ],
+      categories: ["Automation", "IOT", "Node-RED"],
+      tags: ["Automation", "IOT", "Node-RED"],
+      techStack: ["Automation", "IOT", "Node-RED", "JavaScript"],
+      role: "Take Over & Creator",
+      teamSize: 3,
+      status: "Success",
+      problemMd:
+        "วัตถุประสงค์\n\nพัฒนาการเพาะปลูกกัญชาแบบอัจฉริยะ (Smart Cannabis Farming) ณ โรงเรือนปลูกกัญชา ที่ได้รับอนุญาตการปลูกกัญชาถูกต้องตามกฎหมาย ",
       approachMd:
         "รูปแบบการควบคุม\n\n- มีระบบเซ็นเซอร์ในการวัดค่า อุณหภูมิ, ความชื้น, pH, EC, ความสว่าง\n- ควบคุมการรดน้ำการให้สารอาหาร, ควบคุมพัดลมอุณหภูมิ ",
       outcomeMd: null,
@@ -199,16 +231,9 @@ export const seedData = {
       title: "SmartFarm Cannabis (ฟาร์มกัญชาอัจฉริยะ)",
       year: 2021,
       summary:
-        "ดำเนินการออกแบบและพัฒนาSmartFarm Cannabis (ฟาร์มกัญชาอัจฉริยะ) ณ โรงเรือนปลูกกัญชา ที่ได้รับอนุญาตการปลูกกัญชาถูกต้องตามกม.โดยมีระบบเซ็นเซอร์ในการวัดค่า อุณหภูมิ, ความชื้น, pH, EC, ความสว่าง, ควบคุมการรดน้ำการให้สารอาหาร, ควบคุมพัดลมอุณหภูมิ",
-      cover:
-        "https://drive.google.com/file/d/13FFDy9xSrSOJzBrFWvoxwk5wrWDKM-1S/view?usp=sharing",
-      gallery: [
-        "https://drive.google.com/file/d/1R-wdp6gMn7mku-eAVxLqxJkY0PlEUM06/view?usp=sharing",
-        "https://drive.google.com/file/d/16ZLq7X6ExS4HL6c52CbYY7DXcgFM_5QV/view?usp=sharing",
-        "https://drive.google.com/file/d/13qVIbWV-fShmNU2LI1Z-A-lz1dshnqJS/view?usp=sharing",
-        "https://drive.google.com/file/d/1kzFe-0uDiN77jGeEMY-nWt9Cj_pKKSsl/view?usp=sharing",
-        "https://drive.google.com/file/d/1nBjl2XxlG1Nz5Qlom4aCcduAaeWEbAnu/view?usp=sharing",
-      ],
+        "ดำเนินการออกแบบและพัฒนา SmartFarm Cannabis (ฟาร์มกัญชาอัจฉริยะ) ณ โรงเรือนปลูกกัญชา ที่ได้รับอนุญาตการปลูกกัญชาถูกต้องตามกฎหมาย โดยมีระบบเซ็นเซอร์ในการวัดค่า อุณหภูมิ, ความชื้น, pH, EC, ความสว่าง, ควบคุมการรดน้ำการให้สารอาหาร, ควบคุมพัดลมอุณหภูมิ\n \n *โดยเป็นการรับช่วงต่อสำหรับดูแลและพัฒนาต่อจากทีมเดิม*",
+      cover: sCannabis1,
+      gallery: [sCannabis2, sCannabis3, sCannabis4, sCannabis5, sCannabis6],
       categories: ["Automation", "IOT", "PLC", "Arduino Boards", "Node-RED"],
       tags: ["Automation", "IOT", "PLC", "Arduino Boards", "Node-RED"],
       techStack: [
@@ -223,13 +248,12 @@ export const seedData = {
       teamSize: 5,
       status: "Success",
       problemMd:
-        "วัตถุประสงค์\n\nพัฒนาการเพาะปลูกกัญชาแบบอัจฉริยะ (Smart Cannabis Farming) ณ โรงเรือนปลูกกัญชา ที่ได้รับอนุญาตการปลูกกัญชาถูกต้องตามกม. ",
+        "วัตถุประสงค์\n\nพัฒนาการเพาะปลูกกัญชาแบบอัจฉริยะ (Smart Cannabis Farming) ณ โรงเรือนปลูกกัญชา ที่ได้รับอนุญาตการปลูกกัญชาถูกต้องตามกฎหมาย ",
       approachMd:
         "รูปแบบการควบคุม\n\n- มีระบบเซ็นเซอร์ในการวัดค่า อุณหภูมิ, ความชื้น, pH, EC, ความสว่าง\n- ควบคุมการรดน้ำการให้สารอาหาร, ควบคุมพัดลมอุณหภูมิ ",
       outcomeMd: null,
       links: {
-        demo: "https://www.youtube.com/watch?v=cxJd8Di15Wk",
-        caseStudy: "https://www.facebook.com/share/p/16vtoHfNa3/",
+        caseStudy: "https://www.facebook.com/share/p/1BYFhy67rC/",
       },
       featured: true,
     },
@@ -240,8 +264,7 @@ export const seedData = {
       year: 2021,
       summary:
         "ในปัจจุบันเห็ดหลินจือ มีมูลค่าสูงจึงทำให้ชาวบ้านรวมตัวกัน เป็นวิสาหกิจชุมชนเพาะเห็ด แต่เนื่องจากเมื่อเห็ดหลินจือออกดอกแล้ว ต้องนำมาตากให้แห้ง เพื่อให้สามารถนำไปขายได้ จึงมีปัญหาที่ระยะเวลาในการตากนานเกินไป และบางครั้งหากไม่มีแสงแดดก็จะไม่สามารถตากให้แห้งได้  โดยมีแนวคิดใช้ตู้อบลมร้อน เพื่ออบเห็ดหลินจือให้แห้ง ซึ่งจะใช้เวลาน้อยกว่าในการที่นำมาตากแดด  ช่วยประหยัดเวลาได้มากขึ้นและได้ผลิตภัณฑ์ที่สมบูรณ์แบบยิ่งขึ้น",
-      cover:
-        "https://storage.googleapis.com/image-storage-ake/1000002306.jpg",
+      cover: "https://storage.googleapis.com/image-storage-ake/1000002306.jpg",
       gallery: [
         "https://storage.googleapis.com/image-storage-ake/1000002308.jpg",
         "https://storage.googleapis.com/image-storage-ake/1000002305.jpg",
@@ -274,8 +297,7 @@ export const seedData = {
       year: 2021,
       summary:
         "ระบบอัตโนมัติ หรือ Automation คือ ระบบที่สามารถทำงานได้ด้วยตนเอง ทำงานตามที่ได้มีการวางโปรแกรมไว้ อาจใช้กลไกของคอมพิวเตอร์หรืออุปกรณ์อิเล็กทรอนิกส์ควบคุมโดยมีการวางโปรแกรมจากมนุษย์ ระบบอัตโนมัติมีหน้าที่เพื่ออำนวยความสะดวกสบายในการดำเนินชีวิตของมนุษย์ และช่วยลดความเสียหายจากการทำงานโดยแรงงานมนุษย์ และยังสามารถผลิตสินค้าออกมาได้อย่างมีมาตรฐาน ในปัจจุบันระบบอัตโนมัติหรือ Automation ได้เข้ามามีบทบาทในชีวิตประจำวันอย่างมากโดยเฉพาะตู้หยอดเหรียญอัตโนมัติต่าง ๆ ที่อำนวยความสะดวกอย่างมาก เช่น ตู้กดน้ำอัตโนมัติ ตู้เติมเงินโทรศัพท์เครื่องซักผ้าหยอดเหรียญ เป็นต้นเนื่องจากในปัจจุบันชาไข่มุกได้เป็นที่นิยมอย่างมาก มีธุรกิจเกี่ยวกับชาไข่มุกมากมายซึ่งจะมีรูปแบบการสั่งซื้อการขายที่แตกต่างกันไป ส่วนใหญ่จะเป็นรูปแบบการสั่งซื้อผ่านหน้าร้าน จะมีพนักงานเป็นผู้ที่จัดทำชาไข่มุกแต่ละแก้วตามที่ลูกค้าสั่ง แต่ยังไม่มีรูปแบบของตู้กดที่เป็นอัตโนมัติ จึงทำให้ทางผู้จัดทำเลือกที่จะนำชาไข่มุกมาจัดทำรูปแบบการสั่งซื้อผ่านทางตู้กดน้ำชาไข่มุกอัตโนมัติโดยใช้รูปแบบของตู้หยอดเหรียญเข้ามาเพื่อนำไปสู่การพัฒนาระบบอัตโนมัติหรือ Automation ต่อไปวัตถุประสงค์ของโครงงาน",
-      cover:
-        "https://storage.googleapis.com/image-storage-ake/1000002303.jpg",
+      cover: "https://storage.googleapis.com/image-storage-ake/1000002303.jpg",
       gallery: [
         "https://storage.googleapis.com/image-storage-ake/1000002301.jpg",
         "https://storage.googleapis.com/image-storage-ake/1000002297.png",
